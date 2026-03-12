@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: mydummy_description
+    relative_path: urdf/mydummy.urdf
+  srdf:
+    relative_path: config/mydummy_description.srdf
+  package_settings:
+    author_name: my
+    author_email: my@qq.com
+    generated_timestamp: 1773298932
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
