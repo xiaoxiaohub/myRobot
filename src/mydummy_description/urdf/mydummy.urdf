@@ -368,7 +368,7 @@
 
   <!-- Gazebo material tags -->
   <gazebo reference="Base_Link">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Grey</material>
     <gravity>true</gravity>
     <selfCollide>false</selfCollide>
   </gazebo>
@@ -377,20 +377,20 @@
     <selfCollide>false</selfCollide>
   </gazebo>
   <gazebo reference="Link2">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Grey</material>
     <selfCollide>false</selfCollide>
   </gazebo>
   <gazebo reference="Link3">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="Link4">
-    <material>Gazebo/Green</material>
+    <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="Link5">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="Link6">
-    <material>Gazebo/Orange</material>
+    <material>Gazebo/DarkGrey</material>
   </gazebo>
 
   <!-- ros2_control configuration for Gazebo -->
